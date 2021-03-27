@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    margin: auto;
+    padding: 10px 10px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: bisque;
+    overflow: hidden;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar a {
+    padding: 14px 16px;
+    font: 18px 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-align: right;
+    color: #000000;
+}
+
+.navbar a:hover, .navbar a:active {
+    opacity: 0.7;
+}
+
+.navbar a.logo, a.logo:hover {
+    font: 30px 'Montserrat', sans-serif;
+    opacity: 1;
+}
+
+.navbar a.icon {
+    padding: 8px 8px;
+    float: right;
+}
+
+.fas, .fab {
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.fas:hover, .fab:hover, .fas:active, .fab:active {
+    opacity: 0.7;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.landing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 280px 0;
+}
+
+.landing h1 {
+    font: 100px 'Fraunces', serif;
+    text-align: center;
+}
+
+.landing p {
+    font: 20px 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.section{
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    size: 60%;
+}
+
+.section h1 {
+    font: 80px 'Fraunces', serif;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section p {
+    font: 18px 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    width: 45%;
+}
+
+.section img {
+    width: 30%;
+    padding: 20px;
+}
+
+.work {
+    padding: 50px;
+    height: auto;
+    background-color: bisque;
+}
+
+.work h1 {
+    font: 30px 'Montserrat', sans-serif;;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.work p {
+    font: 15px 'Poppins', sans-serif;
+    text-align: center;
+    padding: 30px;
+    width: 60%;
+}
+
+.work a {
+    padding: 14px 16px;
+    font: 14px 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.work a:hover, .work a:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+iframe {
+    margin-top: 30px;
+    width: 60%; 
+    aspect-ratio: 16/9;
+}
+
+.form-container {
+    padding: 20px;
+    width: 50%;
+}
+
+.form-container label {
+    font: 14px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #ffffff;
+    font: 14px 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #000000;;
+    cursor: pointer;
+}
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+

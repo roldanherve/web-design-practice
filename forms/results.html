@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <title>Results</title>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Chronos Library</h1>
+            <p>"Le monde est un livre dont chaque pas nous ouvre une page."<br>&#8212 Alphonse de Lamartine</p>
+        </div>
+        
+
+        <div id="results" class="results">
+            <h1>Confirmation Details</h1>
+        </div>
+        <a href="index.html" class="button center">GO BACK</a>
+    
+        <script>
+            const list = document.getElementById('results')
+            new URLSearchParams(window.location.search).forEach((value, name)=>
+            {
+                list.append(`${name}: ${value}`)
+                list.append(document.createElement('br'))
+            })
+        </script>
+    </main>
+</body>
+</html>
